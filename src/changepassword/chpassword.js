@@ -23,7 +23,7 @@ export function Changepassword(){
   }
   useEffect(()=>{
     verifytoken();
-  },[]);
+  });
  const navigate1=useNavigate();
   const submitt=async()=>{
     try{
