@@ -1,0 +1,30 @@
+.footer_container{
+    width:100%;
+    background-color: rgb(64, 28, 95);
+    height:auto;
+   
+  }
+  .footer_container>ul{
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+   .footer_container>ul>li{
+      color:white;
+      height:40px;
+      padding:10px;
+      font-size: 20px;
+    }
+  
+    .footer_container>p{
+      display: flex;
+     align-items: center;
+     justify-content: center;
+    color:white;
+  }
+  .footer_container>ul>li:hover{
+    font-size: 20px;
+    background-color: white;
+    color: rgb(64, 28, 95);
+  }
