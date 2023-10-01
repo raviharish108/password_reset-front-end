@@ -45,11 +45,11 @@ if(busy){
           <input type="email" className='input' onChange={(e)=>{
                setemail(e.target.value);
           }}/>
-          <label>username</label>
+          <label>password</label>
           <input  type="password" className='input' onChange={(e)=>{
             setpassword(e.target.value)
           }}/>
-          <button className='button' onClick={()=>{
+          <button className={busy ? "button_active" : "button"} onClick={()=>{
                   login()}}>login</button>
           <button className='button'><Link to="/register" style={{ textDecoration: 'none',color:'blue'}}>Register Now</Link></button>
           <button className='button'><Link to="/forgot" style={{ textDecoration: 'none',color:'blue'}}>Forgot Password</Link></button>
