@@ -17,6 +17,7 @@
     background-color: white;
     border-radius: 10px;
     font-size: 17px;
+    text-decoration: none;
   }
   @media screen and (max-width:782px) {
     .header_container>ul{
@@ -26,12 +27,13 @@
     .header_container>ul>li{
       color:black;
       height:40px;
-     width:70%;
+      width:70%;
       padding:5px;
       background-color: white;
       border-radius: 10px;
       font-size: 20px;
       text-align: center;
+      text-decoration: none;
     }
   }
   Link{
